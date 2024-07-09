@@ -150,7 +150,7 @@ background: rgba(167, 33, 98, 0.15);
     width: 1440px;
     margin: 0 auto;
    margin-top: 120px;
-    height: 1500px;
+    height: 1000px;
 
     
 }
@@ -201,3 +201,75 @@ height: 396px;
     gap: 24px;
 }
 
+
+/* footer section start here */
+
+
+.footer-section{
+width: 1440px;
+height: 449px;
+border: 2px solid rgb(243, 239, 239);
+margin:0 auto;
+background-image: url(../images/latest-deals-bg.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+.footer-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 373px;
+height: 94px;
+
+margin: 0 auto;
+margin-top: 112px;
+}
+
+
+.footer-text-container h1{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 16px;
+}
+
+.footer-text-container p{
+color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+
+.footer-input{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+.footer-input input{
+width: 700px;
+height: 64px;
+color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 16px;
+text-align: px;
+
+}
+
+.foot-btn{
+width: 150px;
+height: 64px;
+border-radius: 8px;
+color: rgb(255, 255, 255);
+font-family: Lato;
+font-size: 20px;
+border: none;
+background: rgb(229, 84, 115);
+margin-left: 16px;
+}
